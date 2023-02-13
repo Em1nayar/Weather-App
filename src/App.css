@@ -1,0 +1,141 @@
+body{
+  background: linear-gradient(0deg, #004c4c, rgba(255,255,255,0) 89%), url("../public/davies-designs-studio-G-6kwVnClsE-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+.app{
+  height: 100vh;
+}
+.nav{
+  background-color: #008080;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navBrandName{
+  color: #fff;
+  font-size: 30px;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+.searchContainer{
+  width: 100%;
+  margin-top: 3rem;
+}
+.searchArea{
+  width: 40rem;
+  height: 2.5rem;
+  background-color: rgba(255, 255, 255, .25);
+  border-radius: 40.5px;
+  filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+}
+.searchInput{
+  background-color: transparent;
+  margin: 8px 0;
+  width: 90%;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+.searchInput::placeholder{
+  color: rgba(255, 255, 255, .65);
+}
+.searchInput:focus{
+  outline: none;
+}
+.weather-group{
+  width: 74rem;
+  height: 23rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.today-info{
+  width: 23rem;
+  height: 23rem;
+  background-color: #b2d8d8;
+  color: #004c4c;
+  border-radius: 180px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+}
+.other-days{
+  width: auto;
+  padding: 2rem .5rem;
+  margin: 2rem .5rem;
+  height: auto;
+  background-color: rgba(255, 255, 255,.25);
+  border: 1px solid #fff;
+  border-radius: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0,0,0.25)) drop-shadow(10px 2px 5px rgba(0,0,0,.25));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#today{
+  margin-top: 2.5rem;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+#degree{
+  margin: 0;
+  font-weight: 500;
+  font-size: 3rem;
+}
+#degree-C{
+  font-weight: 500;
+  font-size: 40px;
+}
+.min-max-info{
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.info{
+  margin: 0;
+  font-weight: 200;
+  font-size: 32px;
+}
+#status{
+  margin: 0;
+  font-weight: bold;
+  font-size: 35px;
+}
+.days{
+  margin: .2rem;
+  padding:1rem 0;
+  background-color: #b2d8d8;
+  width: 7rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+.general-info{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.general-desc{
+  text-align: center;
+}
+#city{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
